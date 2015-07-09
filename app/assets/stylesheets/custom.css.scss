@@ -1,0 +1,57 @@
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px; 
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none
+  ;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.nav_items{
+  margin-left: 25px;
+  float: left;
+  margin-top: 25px;
+}
+
+.center {
+  Text-align: center;
+}
+
+h1, h2, h3, h4 {
+  Line-height: 1;
+}
+
+h1 {
+  Font-size:3em;
+  Letter-spacing: -2px;
+  Margin-bottom: 30px;
+  Text-align: center;
+}
+
+.left{
+  Text-align: left;
+  Letter-spacing: 5px;
+}
